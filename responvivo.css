@@ -998,7 +998,12 @@ h3 {
 }
 
 .u-section-4 .u-btn-5 {
-  padding: 0;
+  color: white !important;
+  font-size: 1.7vh;
+  margin: -3vh auto 0vh 27vh;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 .u-section-4 .u-text-2 {
