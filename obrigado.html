@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="responvivo.css" media="screen">
+    <link rel="stylesheet" href="Página-Inicial.css" media="screen">
+    <title>Obrigado!</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            padding: 50px;
+            background-color: #b29c8a;
+            height: 100vh;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+
+        }
+
+        a {
+            color: white !important;
+            font-size: 3vh;
+            margin: 0vh auto 0vh 0vh;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30vh;
+            width: 50vh;
+            height: 20vh;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mensagem enviada com sucesso, obrigado!</h1>
+    <p>Entraremos em contato em breve.</p>
+    <p><a href="javascript:history.go(-1)">Voltar</a></p>
+    <script>
+        setTimeout(function () {
+            history.go(-1);
+        }, 6000); //  segundos
+    </script>
+    <a href="#section1"><img class="u-image u-image-contain u-image-default logo" src="images/Logo1.png" alt=""
+            data-image-width="753" data-image-height="327"></sa>
+
+</body>
+
+</html>
