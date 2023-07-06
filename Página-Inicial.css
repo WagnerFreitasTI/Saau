@@ -514,15 +514,15 @@
         margin: 19vh auto auto 40vh;
     }
 
-    .u-section-4 .u-social-icons-1 {
-        height: 3.2vh;
-        min-height: 20px;
-        width: 40vw;
-        min-width: 171px;
-        margin: 3vh auto auto 100vh;
-        max-width: 940px;
-        max-height: 172px;
-    }
+.u-section-4 .u-social-icons-1 {
+    height: 4.2vh;
+    min-height: 20px;
+    width: 40vw;
+    min-width: 171px;
+    margin: 3vh auto auto 100vh;
+    max-width: 294px;
+    max-height: 64px;
+}
 }
 
 @media (max-width: 2220px) {
